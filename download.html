@@ -8,11 +8,13 @@
      if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
          window.location.href = 'https://play.google.com/store/apps/details?id=com.mbm';
      }
-	//  else if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
-    //      window.location.href = 'http://itunes.apple.com/lb/app/truecaller-caller-id-number/id448142450?mt=8';
-    //  }
+	 else if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+        //  window.location.href = 'http://itunes.apple.com/lb/app/truecaller-caller-id-number/id448142450?mt=8';
+        alert('Hello iOS');
+		window.location.href = 'https://chuyendauso.com';
+     }
 	 else {
-		window.location.href = 'http://chuyendauso.com';
+		window.location.href = 'https://chuyendauso.com';
 	 }
     });
 	
